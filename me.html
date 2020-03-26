@@ -1,0 +1,88 @@
+<!-- Things to do -->
+<!-- Contact logic -->
+<!-- Add extensions to social media -->
+<!-- Add graphics/animations -->
+<!-- Add picture -->
+<!-- Add more example work -->
+
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Make website responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Lane Enget | enget.lane@gmail.com</title>
+    <!-- Add custom font-->
+    <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" text="text/css" href="me.css">
+    <script src="me.js"></script>
+</head>
+
+<body>
+
+    <!--Home-->
+    <section id="home">
+        <nav class="links">
+            <ul class="nav-links">
+                <li class="link" id="home-link"><a class="active" href="#home">HOME</a></li>
+                <li class="link" id="about-link"><a href="#about">ABOUT ME</a></li>
+                <li class="link" id="contact-link"><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+
+        <div class="home-flex">
+            <h1 class="home-header" id="name">Lane Enget</h1>
+            <h2 class="home-header" id="description">I am a software developer
+                    focused on crafting user-friendly experiences.
+            </h2>
+            <a class="button check-work" href="#about">Check my work</a>
+        </div>
+    </section>
+
+    <!--About-->
+    <section id="about">
+        <h1 class="about-flex" id="about-title">
+            ABOUT ME
+        </h1>
+        <p class="about-content" id="about-content">I am a proactive IT student with strong technical and interpersonal skills. 
+            My background includes extensive experience in the food service industry. 
+            I am a dependable team player who stays calm under pressure, is able to work independently, and builds a climate of trust with colleagues. 
+            I am semi-fluent in French.</p>
+        <div class="about-content">
+            <h2 class="about-flex" id="skills">SKILLS</h2>
+            <ul class="about-content" id="skills-list">
+                <li class="skill">Python</li>
+                <li class="skill">Django</li>
+                <li class="skill">CSS</li>
+                <li class="skill">HTML</li>
+                <li class="skill">JavaScript</li>
+                <li class="skill">Vue</li>
+                <li class="skill">C#</li>
+                <li class="skill">Java</li>
+                <li class="skill">Windows</li>
+            </ul>
+        </div>
+        <h2 class="about-flex" id="examples">EXAMPLES</h2>
+        <!--Slideshow container-->
+        <div class="example-carousel">
+            <div class="carousel-cell"><img src="favorites.png" style="width:100%; height:100%;"></div>
+            <!-- Image cells for when I have more examples 
+            <div class="carousel-cell"><img src=""></div>
+            <div class="carousel-cell"><img src=""></div>
+            <div class="carousel-cell"><img src=""></div>
+            <div class="carousel-cell"><img src=""></div>
+            <div class="carousel-cell"><img src=""></div>
+            -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="about-flex" id="contact-title">CONTACT</h1>
+        <div class="inputs">
+            <br><label for="user-name"> Name </label><input id="user-name" name="user-name" class="input-box" type="text">
+            <br><label for="email"> Email </label><input id="email" name="email" class="input-box" type="email">
+            <br><label for="message">Message</label>
+            <br><textarea id="message"></textarea>
+        </div>
+        <a class="button" id="submit">Submit</a>
+    </section>
